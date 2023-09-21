@@ -1,0 +1,92 @@
+
+/* RESET.CSS */ /* RESET.CSS */ /* RESET.CSS */ /* RESET.CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* RESET.CSS */ /* RESET.CSS */ /* RESET.CSS */ /* RESET.CSS */
+
+
+.newblock{
+    width: 200px;
+    height: 150px;
+    margin: 15px 0px 10px 10px;
+    background-color: rgb(117, 117, 206);
+    box-sizing: border-box;
+    border: dotted green 5px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.elem{
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    border: dashed red 2px;
+    background-color: green;
+}
+
+div{
+    width: 700px;
+    text-align: justify;
+}
+
+.left{
+    width: 200px;
+    height: 120px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 8px;
+}
+
+.right{
+    width: 200px;
+    height: 120px;
+    float: right;
+    margin: 15px 0 10px 20px;
+}

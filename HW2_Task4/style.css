@@ -1,0 +1,15 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg-box{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    background-image: url(images/grass.png), url(images/lamp.png), url(images/hadgehog.png), url(images/donut.png), url(images/house.jpg);
+    background-repeat: repeat-x,  repeat-x, repeat-y, repeat-y, no-repeat;
+    background-size: 200px, 50px, 50px, 50px, 700px;
+    background-position: bottom, top, left, right, center;
+}
